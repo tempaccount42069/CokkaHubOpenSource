@@ -1,10 +1,10 @@
 local CheckQ, CheckBossQuest, Hop, InfAb, infinitestam, NoDodgeCool, NameMelee, NameSword, checkskillMelee, checkskillDF, checkskillSword, checkskillGun, SendKey, autoskill, CheckInventory, TeleportSeabeast, Click, IsWpSKillLoaded, GetWeapon, EquipAllWeapon, UnEquipWeapon, EquipWeapon, TP, StopTween, CheckPirateBoat, CheckSwanBoat, CheckSeaBeast, CheckLeviathanSegment, CheckLeviathanTail, CheckLeviathan, TeleportLeviathan, TweenTemple, DayNight, ClockTime, BuyGear, PullLever, AncientClock, TweentoCurrentRaceDoor, GetSeaBeastTrial, CheckBossDimension, BoatShit, TPBoatShit, StopTweenBoatShit, CheckDimension, CheckBribe, CheckElite, CheckMirage, CheckKitsune, MoonTextureId, CheckMoonTexture, ClockTime, CheckMoon, CheckLegendarySword, isnil, UpdatePlayerChams, UpdateIslandESP, UpdateChestEsp, UpdateBfEsp, UpdateFlowerEsp, IsIslandRaid, getNextIsland, LockMoon, ESPMirageIsland, CheckAcientOneStatus
--- manually added locals:
+
 local MyLevel, CFrameQuest, CFrameMon, Mon, NameMon, NameQuest, LevelQuest
 
 
 local Vector2,CFrame,Instance,UDim2=Vector2,CFrame,Instance,UDim2
-local _25msShared={} -- getgenv = bad and it crashes on second execution anyways :3
+local _25msShared={}
 if getgenv().CokkaRan then
 warn("ALREADY OPEN")
 return
